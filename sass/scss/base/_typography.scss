@@ -1,0 +1,25 @@
+html {
+  font-size: 100%;
+}
+
+.home-page {
+  font-family: $font-sans;
+}
+
+.card {
+  line-height: 36px;
+  &__text {
+    font-size: 20px;
+  }
+  &__footer {
+    text-align: center;
+  }
+  &__person-name {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  &__person-contact {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+}

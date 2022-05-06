@@ -1,0 +1,30 @@
+.card {
+  max-width: 400px;
+  overflow: hidden;
+  border-radius: $border-radius-card;
+  box-shadow: 0 10px 15px $box-shadow-black-transparent;
+  @include flex(column, center, center);
+  &__text {
+    background: $background-white;
+    color: $dark-grey;
+    padding: 42px 42px 77px;
+  }
+  &__footer {
+    background: $background-purple-blue;
+    width: 100%;
+    padding: 33px;
+  }
+  &__photo {
+    width: 120px;
+    height: 120px;
+    border: 6px solid $white;
+    border-radius: 50%;
+    margin-top: -93px;
+  }
+  &__person-name {
+    color: $white;
+  }
+  &__person-contact {
+    color: $grey-blue;
+  }
+}

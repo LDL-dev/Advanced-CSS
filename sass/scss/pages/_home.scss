@@ -1,0 +1,5 @@
+.home-page {
+  background: $background-grey;
+  @include flex(column, center, center);
+  padding: 60px;
+}

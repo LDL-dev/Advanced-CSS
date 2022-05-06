@@ -1,0 +1,33 @@
+// background colors
+$background-grey: #c3cfe2;
+$background-white: #fff;
+$background-purple-blue: #686de0;
+$background-ebony-blue: rgb(36, 45, 63);
+$background-color-blog: #e17b77;
+$background-color-facebook: #3b5998;
+$background-color-twitter: #00aced;
+$background-color-github: #333;
+$background-color-linkedin: #007bb6;
+
+// colors
+$dark-grey: rgb(88, 88, 88);
+$white: #fff;
+$grey-blue: rgb(159, 176, 197);
+
+// box-shadows
+$box-shadow-black-transparent: rgba(0, 0, 0, 0.4);
+
+// fonts
+$font-sans: Carlito, sans-serif;
+
+// breakpoints
+$breakpoint-tablet: 601px;
+$breakpoint-desktop: 1024px;
+
+// card
+$border-radius-card: 20px;
+
+// social media
+$social-media-btn-width: 200px;
+$social-media-icon-width: 50px;
+$social-media-offset: calc(#{$social-media-icon-width} - #{$social-media-btn-width});

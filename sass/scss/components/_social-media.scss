@@ -1,0 +1,57 @@
+.social-media {
+  position: fixed;
+  @include flex(column, center, flex-end);
+  height: 100%;
+  top: 0%;
+  right: $social-media-offset;
+  &__btn {
+    list-style: none;
+    width: $social-media-btn-width;
+    transition: transform 400ms ease;
+    & > * {
+      color: $white;
+      padding: 10px;
+      text-align: center;
+    }
+    &.blog {
+      background-color: $background-color-blog;
+    }
+    &.twitter {
+      background-color: $background-color-twitter;
+    }
+    &.linkedin {
+      background-color: $background-color-linkedin;
+    }
+    &.facebook {
+      background-color: $background-color-facebook;
+    }
+    &.github {
+      background-color: $background-color-github;
+    }
+    &:hover {
+        transform: translateX(-150px);
+    }
+  }
+  &__icon {
+    width: $social-media-icon-width;
+    font-size: 24px;
+    &.fa-laptop-code::before {
+      content: "\f5fc";
+    }
+    &.fa-twitter::before {
+      content: "\f099";
+    }
+    &.fa-linkedin-in::before {
+      content: "\f0e1";
+    }
+    &.fa-facebook-f::before {
+      content: "\f39e";
+    }
+    &.fa-github::before {
+        content: "\f09b";
+    }
+  }
+  &__link {
+    font-size: 12px;
+  }
+}
